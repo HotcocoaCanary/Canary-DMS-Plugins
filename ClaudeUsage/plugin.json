@@ -1,0 +1,22 @@
+{
+  "id": "canaryClaudeUsage",
+  "name": "Claude Usage",
+  "description": "Claude Code usage from local transcripts: /usage limits, /stats overview, per-model charts and an activity heatmap. /usage is synced manually or on a configurable schedule",
+  "version": "0.1.0",
+  "author": "HotcocoaCanary",
+  "icon": "monitoring",
+  "type": "widget",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "component": "./ClaudeUsageWidget.qml",
+  "settings": "./ClaudeUsageSettings.qml",
+  "requires": [
+    "python3"
+  ],
+  "permissions": [
+    "settings_read",
+    "settings_write",
+    "process"
+  ]
+}
