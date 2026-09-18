@@ -2,6 +2,8 @@
 
 A trimmed-down [DMS](https://github.com/AvengeMedia/DankMaterialShell) bar widget for Claude Code usage, based on [titeya/dms-claudecode](https://github.com/titeya/dms-claudecode).
 
+![screenshot](screenshot.png)
+
 - **The network is only used for `/usage`.** The `/api/oauth/usage` limits are fetched when you click the refresh button in the popout header, or on a schedule if you enable one (see Configuration). The result is cached in `~/.cache/canary-claude-usage/usage.json`, so the last synced values survive a restart.
 - **Everything else is offline.** Local transcripts under `~/.claude/projects/**/*.jsonl` are scanned on startup and each time the popout opens.
 
