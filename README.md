@@ -4,9 +4,9 @@ Plugins for [Dank Material Shell](https://github.com/AvengeMedia/DankMaterialShe
 
 | Plugin | ID | Repository | What it does |
 |---|---|---|---|
-| [Docker](Docker/) | `canaryDocker` | [Canary-DMS-Docker](https://github.com/HotcocoaCanary/Canary-DMS-Docker) | Containers, Compose projects, images, networks and volumes in a bar popout, with start / stop / restart / recreate / delete and live logs |
-| [Claude Usage And Stats](ClaudeUsage/) | `canaryClaudeUsage` | [Canary-DMS-ClaudeUsage](https://github.com/HotcocoaCanary/Canary-DMS-ClaudeUsage) | Claude Code `/usage` limits and `/stats` charts built from local transcripts |
-| [Tailscale](Tailscale/) | `canaryTailscale` | [Canary-DMS-Tailscale](https://github.com/HotcocoaCanary/Canary-DMS-Tailscale) | Read-only Tailscale status: this device, the devices in the tailnet, traffic and relay latencies as charts, plus a link to the admin console |
+| [Docker Dashboard](Docker/) | `dockerDashboard` | [Canary-DMS-Docker](https://github.com/HotcocoaCanary/Canary-DMS-Docker) | Containers, Compose projects, images, networks and volumes in a bar popout, with start / stop / restart / recreate / delete and live logs |
+| [Claude Usage and Stats](ClaudeUsageStats/) | `claudeUsageStats` | [Canary-DMS-ClaudeUsageStats](https://github.com/HotcocoaCanary/Canary-DMS-ClaudeUsageStats) | Claude Code `/usage` limits and `/stats` charts built from local transcripts |
+| [Tailscale Dashboard](Tailscale/) | `tailscaleDashboard` | [Canary-DMS-Tailscale](https://github.com/HotcocoaCanary/Canary-DMS-Tailscale) | Read-only Tailscale status: this device, the devices in the tailnet, traffic and relay latencies as charts, plus a link to the admin console |
 
 ## Installation
 
@@ -14,9 +14,9 @@ Clone with the submodules and link the plugins you want into the DMS plugins fol
 
 ```bash
 git clone --recurse-submodules https://github.com/HotcocoaCanary/Canary-DMS-Plugins.git
-ln -s "$PWD/Canary-DMS-Plugins/Docker" ~/.config/DankMaterialShell/plugins/canaryDocker
-ln -s "$PWD/Canary-DMS-Plugins/ClaudeUsage" ~/.config/DankMaterialShell/plugins/canaryClaudeUsage
-ln -s "$PWD/Canary-DMS-Plugins/Tailscale" ~/.config/DankMaterialShell/plugins/canaryTailscale
+ln -s "$PWD/Canary-DMS-Plugins/Docker" ~/.config/DankMaterialShell/plugins/dockerDashboard
+ln -s "$PWD/Canary-DMS-Plugins/ClaudeUsageStats" ~/.config/DankMaterialShell/plugins/claudeUsageStats
+ln -s "$PWD/Canary-DMS-Plugins/Tailscale" ~/.config/DankMaterialShell/plugins/tailscaleDashboard
 dms ipc call plugin-scan scan
 ```
 
