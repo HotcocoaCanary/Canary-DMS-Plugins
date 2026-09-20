@@ -1,0 +1,23 @@
+{
+  "id": "canaryTailscale",
+  "name": "Tailscale",
+  "description": "Read-only Tailscale status: this device, the devices in the tailnet, traffic and relay latencies as charts, plus a link to the admin console",
+  "version": "0.1.0",
+  "author": "HotcocoaCanary",
+  "icon": "vpn_key",
+  "type": "widget",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "component": "./TailscaleWidget.qml",
+  "settings": "./TailscaleSettings.qml",
+  "requires": [
+    "tailscale",
+    "python3"
+  ],
+  "permissions": [
+    "settings_read",
+    "settings_write",
+    "process"
+  ]
+}
