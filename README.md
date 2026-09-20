@@ -5,7 +5,7 @@ Plugins for [Dank Material Shell](https://github.com/AvengeMedia/DankMaterialShe
 | Plugin | ID | Repository | What it does |
 |---|---|---|---|
 | [Docker](Docker/) | `canaryDocker` | [Canary-DMS-Docker](https://github.com/HotcocoaCanary/Canary-DMS-Docker) | Containers, Compose projects, images, networks and volumes in a bar popout, with start / stop / restart / recreate / delete and live logs |
-| [Canary Claude Usage](ClaudeUsage/) | `canaryClaudeUsage` | [Canary-DMS-ClaudeUsage](https://github.com/HotcocoaCanary/Canary-DMS-ClaudeUsage) | Claude Code `/usage` limits and `/stats` charts built from local transcripts |
+| [Claude Usage And Stats](ClaudeUsage/) | `canaryClaudeUsage` | [Canary-DMS-ClaudeUsage](https://github.com/HotcocoaCanary/Canary-DMS-ClaudeUsage) | Claude Code `/usage` limits and `/stats` charts built from local transcripts |
 | [Tailscale](Tailscale/) | `canaryTailscale` | [Canary-DMS-Tailscale](https://github.com/HotcocoaCanary/Canary-DMS-Tailscale) | Read-only Tailscale status: this device, the devices in the tailnet, traffic and relay latencies as charts, plus a link to the admin console |
 
 ## Installation
