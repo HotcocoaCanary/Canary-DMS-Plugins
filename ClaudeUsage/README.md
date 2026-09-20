@@ -1,4 +1,4 @@
-# Claude Usage
+# Canary Claude Usage
 
 A trimmed-down [DMS](https://github.com/AvengeMedia/DankMaterialShell) bar widget for Claude Code usage, based on [titeya/dms-claudecode](https://github.com/titeya/dms-claudecode).
 

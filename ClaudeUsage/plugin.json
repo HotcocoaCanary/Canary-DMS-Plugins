@@ -1,6 +1,6 @@
 {
   "id": "canaryClaudeUsage",
-  "name": "Claude Usage",
+  "name": "Canary Claude Usage",
   "description": "Claude Code usage from local transcripts: /usage limits, /stats overview, per-model charts and an activity heatmap. /usage is synced manually or on a configurable schedule",
   "version": "0.1.0",
   "author": "HotcocoaCanary",
